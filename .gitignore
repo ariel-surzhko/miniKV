@@ -4,6 +4,7 @@ cmake-build-*/
 
 # clangd / CMake generated database
 compile_commands.json
+.cache/
 
 # Compiled objects / binaries
 *.o
