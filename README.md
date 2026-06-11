@@ -14,3 +14,12 @@ The database supports simple commands such as `SET`, `GET`, `DEL`, `EXISTS`, `SA
 - Add save/load persistence
 - Write unit tests
 - Ensure the project is Valgrind-clean
+
+# Build 
+
+To build and rum the project from WSL, run:
+'
+cmake -S . -B build -G Ninja -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+cmake --build build
+./build/minikv
+'
