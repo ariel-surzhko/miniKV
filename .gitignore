@@ -1,0 +1,19 @@
+# CMake build directories
+build/
+cmake-build-*/
+
+# clangd / CMake generated database
+compile_commands.json
+
+# Compiled objects / binaries
+*.o
+*.out
+*.exe
+
+# Neovim / editor temporary files
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
